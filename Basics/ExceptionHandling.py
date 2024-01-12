@@ -3,15 +3,14 @@
 try:
     numerator = int(input("Enter a number to divide: "))
     denominator = int(input("Enter a number to divide by: "))
-    result = numerator/denominator
+    result = numerator / denominator
 except ZeroDivisionError as e:
-    print(e)
-    print("You can't divide by zero! idiot!")
+    print("You can't divide by zero! idiot! " + str(e))
 except ValueError as e:
-    print(e)
-    print("Enter only numbers please")
+    print("Enter only numbers please " + str(e))
 except Exception as e:
-    print(e)
-    print("Something went wrong")
+    print("Something went wrong " + str(e))
 else:
     print(result)
+# finally:
+#     print("This will always execute")
