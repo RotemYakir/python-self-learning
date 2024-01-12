@@ -12,6 +12,6 @@ except ValueError as e:
     print("Enter only numbers please")
 except Exception as e:
     print(e)
-    print("Something went wrong: ")
+    print("Something went wrong")
 else:
     print(result)
