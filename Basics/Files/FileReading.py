@@ -8,4 +8,4 @@ try:
 except FileNotFoundError as e:
     print("That file was not found: "+str(e))
 except Exception as e:
-    print(e)
+    print("Something went wrong: " + str(e))
