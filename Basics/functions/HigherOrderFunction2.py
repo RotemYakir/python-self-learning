@@ -3,17 +3,17 @@
 #                             or
 #                          2. returns a function
 #                          (In Python, functions are also treated as objects)
-
-def loud(text):
-    return text.upper()
+# https://www.youtube.com/watch?v=XKHEtdqhLK8&t=16521s
 
 
-def quiet(text):
-    return text.lower()
+# dividend/divisor=quotient
+def divisor(x):
+    def dividend(y):
+        return y / x
 
+    return dividend
 
-def hello(func):
-    text = func("Hello")
-    print(text)
+divide = divisor(2)
+print(divide(10))
 
 
