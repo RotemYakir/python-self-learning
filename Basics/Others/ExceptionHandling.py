@@ -12,6 +12,5 @@ except Exception as e:
     print("Something went wrong " + str(e))
 else:
     print(result)
-
 # finally:
 #     print("This will always execute")
