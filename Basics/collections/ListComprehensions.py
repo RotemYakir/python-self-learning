@@ -1,3 +1,5 @@
+# https://youtu.be/XKHEtdqhLK8?list=RDCMUC4SVo0Ue36XCfOyb5Lh1viQ&t=18295
+
 # list comprehension = a way to create a new list with less syntax
 #                      can mimic certain lambda functions, easier to read
 #                      list = [expression for item in iterable]
